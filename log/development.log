@@ -1,0 +1,303 @@
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 21:06:41) [GET]
+
+ActionController::RoutingError (No route matches "/pages/home" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 21:06:56) [GET]
+
+ActionController::RoutingError (No route matches "/page/home" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 21:07:01) [GET]
+
+ActionController::RoutingError (No route matches "/pages/home" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-06-22 21:07:27) [GET]
+
+ActionController::RoutingError (No route matches "/pages/home" with {:method=>:get}):
+  -e:2:in `load'
+  -e:2
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-22 21:09:00) [GET]
+Rendering pages/home
+Completed in 95ms (View: 93, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-06-22 22:34:58) [GET]
+Rendering pages/about
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-06-22 22:35:02) [GET]
+Rendering pages/contact
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/pages/contact]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-06-22 22:35:11) [GET]
+Rendering pages/contact
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/contact]
+
+
+Processing PagesController#homee (for 127.0.0.1 at 2010-06-22 22:53:40) [GET]
+
+ActionController::UnknownAction (No action responded to homee. Actions: about, contact, and home):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-22 22:53:43) [GET]
+Rendering pages/home
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-06-22 22:53:49) [GET]
+Rendering pages/contact
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/pages/contact]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-06-22 22:53:55) [GET]
+Rendering pages/about
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-23 08:12:08) [GET]
+Rendering pages/home
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-23 08:23:01) [GET]
+Rendering pages/home
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-23 08:30:10) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-06-23 08:30:16) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing ApplicationController#about (for 127.0.0.1 at 2010-06-23 08:38:25) [GET]
+
+NameError (uninitialized constant PagesController):
+  
+
+Rendered rescues/_trace (40.0ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (6.0ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("schema_migrations")[0m
+  [4;36;1mSQL (5.0ms)[0m   [0;1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+
+Processing ApplicationController#about (for 127.0.0.1 at 2010-06-23 08:40:46) [GET]
+
+NameError (uninitialized constant PagesController):
+  
+
+Rendered rescues/_trace (106.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#home (for 127.0.0.1 at 2010-06-23 17:25:07) [GET]
+
+NameError (uninitialized constant PagesController):
+  
+
+Rendered rescues/_trace (39.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-23 17:27:49) [GET]
+Rendering pages/home
+Completed in 7ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-23 17:43:08) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 14ms (View: 12, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-23 17:43:32) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+
+ActionView::TemplateError (undefined local variable or method `yeild' for #<ActionView::Base:0x5eb96c8>) on line #8 of app/views/layouts/application.html.erb:
+5: 		<title>Learnig Ruby on Rails | <%= @title%></title>
+6: 	</head>
+7: 	<body>
+8: 		<% yeild %>
+9: 	</body>
+10: </html>
+
+    app/views/layouts/application.html.erb:8
+
+Rendered rescues/_trace (122.0ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-23 17:43:44) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-23 17:44:48) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-23 17:45:29) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 16ms (View: 14, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-23 17:45:35) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-23 17:51:16) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-23 17:52:44) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-23 17:53:41) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-23 17:54:27) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-23 17:57:01) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing ApplicationController#home (for 127.0.0.1 at 2010-06-23 17:58:58) [GET]
+
+SyntaxError (C:/Users/Neal/My Documents/Aptana RadRails Workspace/sample_app/app/controllers/pages_controller.rb:4: syntax error, unexpected tIDENTIFIER, expecting kEND
+    @location = "<a> href="http://localhost:3000/pages/home"</a>"
+                               ^
+C:/Users/Neal/My Documents/Aptana RadRails Workspace/sample_app/app/controllers/pages_controller.rb:4: unknown regexp options - lcalht
+C:/Users/Neal/My Documents/Aptana RadRails Workspace/sample_app/app/controllers/pages_controller.rb:4: syntax error, unexpected tSTRING_BEG, expecting kDO or '{' or '('
+    @location = "<a> href="http://localhost:3000/pages/home"</a>"
+                                                            ^):
+  
+
+Rendered rescues/_trace (40.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-23 17:59:59) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#home (for 127.0.0.1 at 2010-06-23 18:00:50) [GET]
+Rendering template within layouts/application
+Rendering pages/home
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/home]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-06-23 18:01:42) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing PagesController#about (for 127.0.0.1 at 2010-06-23 18:02:48) [GET]
+Rendering template within layouts/application
+Rendering pages/about
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/pages/about]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-06-23 18:03:34) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/pages/contact]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-06-23 18:10:11) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://localhost/pages/contact]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-06-23 18:10:29) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/pages/contact]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-06-23 18:10:33) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/pages/contact]
+
+
+Processing PagesController#contact (for 127.0.0.1 at 2010-06-23 18:10:51) [GET]
+Rendering template within layouts/application
+Rendering pages/contact
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/pages/contact]
